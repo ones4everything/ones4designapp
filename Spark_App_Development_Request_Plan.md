@@ -3,24 +3,24 @@
 ## Project Overview
 **Date:** January 3, 2026  
 **Project Location:** `C:\Users\Noe\OneDrive\Documents\3D`  
-**Project Type:** 3D Print Designer Application with BabylonJS Integration  
+**Project Type:** Spark AR Application with BabylonJS Integration  
 
 ## Executive Summary
-Request for development of a comprehensive 3D printing and design application using Spark platform, incorporating BabylonJS for 3D visualization, GLB pipeline standards, and advanced features including teletransport liquid technology.
+Request for development of a comprehensive Spark AR application using BabylonJS for 3D visualization, GLB file support, and advanced features including teletransport liquid technology for immersive AR experiences.
 
 ## Project Components Analysis
 
 ### 1. Core Application Framework
-- **Platform:** Spark (Meta/Facebook's AR creation platform)
-- **Primary Technology:** BabylonJS for 3D rendering
+- **Platform:** Spark AR Studio (Meta/Facebook AR platform)
+- **Primary Technology:** BabylonJS for 3D rendering and AR effects
 - **File Format Support:** GLB (GL Transmission Format Binary)
-- **Integration:** Print Designer functionality
+- **Integration:** AR experience and 3D model interaction
 
 ### 2. Key Documents and Specifications
 - `ONES4_Print_Designer_Spark_Gemini_Master_Spec_v3.docx` - Master specification document
-- `ONES4_BabylonJS_GLB_Pipeline_Standards.docx` - Technical pipeline standards
+- `ONES4_BabylonJS_GLB_Pipeline_Standards_AR_Focused.md` - AR-focused technical pipeline standards
 - `ONES4_teletransport_liquid_Code_Extract_and_Restructure_Request_v2.docx` - Advanced feature specifications
-- `camotank.png` - Visual reference/asset
+- `camotank.png` - Visual reference/3D model asset
 
 ## Development Request Structure
 
@@ -34,20 +34,21 @@ Request for development of a comprehensive 3D printing and design application us
    - Spark AR Studio compatibility analysis
    - BabylonJS integration requirements
    - GLB file format optimization needs
-   - Performance considerations for 3D print preview
+   - Performance considerations for AR experiences
 
 ### Phase 2: Architecture and Design
 1. **Application Architecture**
    - Spark AR project structure
    - BabylonJS scene management
    - GLB asset loading pipeline
-   - Print designer interface design
+   - AR interface design
 
 2. **Key Features Definition**
    - 3D model import/export (GLB format)
-   - Real-time 3D preview and manipulation
-   - Print preparation tools
+   - Real-time 3D AR visualization and manipulation
+   - Interactive AR experiences
    - Teletransport liquid integration
+   - User interface components
    - User interface components
 
 ### Phase 3: Technical Specifications

@@ -18,7 +18,7 @@
 - [ ] Identify Spark AR developer
 - [ ] Recruit BabylonJS specialist
 - [ ] Assign UI/UX designer
-- [ ] Engage 3D printing consultant
+- [ ] Engage AR/3D graphics specialist
 - [ ] Set up QA testing environment
 
 ## Development Phase Checklist
@@ -32,7 +32,7 @@
 
 ### Phase 2: Core Features (Weeks 3-4)
 - [ ] Build 3D model import system
-- [ ] Create print designer interface
+- [ ] Create AR interface and interactions
 - [ ] Implement model manipulation tools
 - [ ] Add export functionality
 - [ ] Test basic user workflows
@@ -56,7 +56,7 @@
 ### Functional Testing
 - [ ] GLB file import/export works correctly
 - [ ] 3D manipulation tools function properly
-- [ ] Print preview accuracy verified
+- [ ] AR experience accuracy verified
 - [ ] AR features work as expected
 - [ ] Teletransport liquid effects operational
 
