@@ -1,26 +1,25 @@
-# Gemini AI Integration Request for 3D Print Designer Application
+# Gemini AI Integration Request for ONES4 Customizer App
 
-## 🤖 AI-Powered Development Request
+## 🤖 AI-Powered Commerce Customization Request
 
 **To:** Gemini AI Development Team / Google AI Partners  
 **From:** [Your Name/Organization]  
 **Date:** January 3, 2026  
-**Subject:** Gemini AI Integration Request for Advanced 3D Print Designer with Spark AR
+**Subject:** Gemini AI Integration for **ONES4 Customizer App** - Shopify Commerce with AI-Powered Product Customization
 
 ---
 
 ## 🎯 Executive AI Request
 
-We are requesting **Gemini AI integration** for our comprehensive **3D Print Designer Spark AR application**. This project aims to leverage Gemini's advanced AI capabilities to create an intelligent, adaptive 3D printing workflow system with natural language processing, automated design optimization, and AI-driven user assistance.
+We are requesting **Gemini AI integration** for our **ONES4 Customizer App** - a Shopify-integrated product customization platform. This project leverages Gemini's conversational AI capabilities to enable customers to customize products through natural language within the Shopify commerce experience, creating intelligent texture generation and automated customization assistance.
 
-## 🧠 Gemini AI Integration Vision
+## 🧠 Gemini AI Commerce Integration Vision
 
-Transform our 3D printing application into an **AI-native experience** where users can:
-- **Conversationally design** 3D models through natural language
-- **Automatically optimize** prints using AI analysis
-- **Predict and prevent** printing failures with machine learning
-- **Generate creative variations** of existing designs
-- **Provide intelligent assistance** throughout the entire workflow
+Transform product customization into an **AI-native commerce experience** where customers can:
+- **Conversationally customize** products through natural language ("Make it liquid chrome")
+- **Generate AI textures** directly within the Shopify App Proxy experience
+- **Receive intelligent suggestions** for product personalization options
+- **Complete purchases** with AI-generated customizations seamlessly integrated into Shopify orders
 
 ## 📚 Project Foundation & Documentation
 

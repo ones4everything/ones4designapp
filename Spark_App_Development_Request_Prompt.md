@@ -1,85 +1,129 @@
-# Spark App Development Request Prompt
+# ONES4 Customizer App - Shopify & Spark AR Development Request
 
-## 🎯 Project Request Summary
+## 🛒 Shopify Integration Development Request
 
 **To:** Spark Development Team / External Development Partner  
 **From:** [Your Name/Organization]  
 **Date:** January 3, 2026  
-**Subject:** Development Request for 3D Print Designer Spark AR Application
+**Subject:** Development Request for **ONES4 Customizer App** - Shopify Integration with Spark AR Product Customization
 
 ---
 
 ## 📋 Executive Request
 
-We are requesting the development of an innovative **Spark AR application** that leverages **BabylonJS** for advanced 3D visualization and **GLB pipeline integration**. This application will create immersive augmented reality experiences with interactive 3D models and revolutionary **teletransport liquid technology**.
+We are requesting the development of **ONES4 Customizer App**, a **Shopify-integrated application** that combines **Shopify App Proxy** with **Spark AR customization** powered by **BabylonJS** and **Gemini AI**. This creates a seamless "Teletransport" commerce experience where customers can customize products directly within the Shopify store environment.
 
-## 🎨 Project Vision & Clear Intentions
+## 🔗 **Shopify Integration & Architecture**
 
-**PRIMARY GOAL:** Create a cutting-edge Spark AR application that transforms how users interact with 3D models in augmented reality environments.
+**ONES4 Customizer App** integrates with Shopify through App Proxy architecture:
 
-**KEY CONNECTIONS:**
-- **Spark AR Studio** ↔ **BabylonJS** = Powerful 3D rendering in AR
-- **GLB Pipeline** ↔ **3D Models** = Optimized asset loading for AR experiences  
-- **Teletransport Liquid** ↔ **AR Interface** = Revolutionary interaction method
-- **ONES4 Framework** ↔ **Gemini AI** = Intelligent AR assistance and automation
+### **Primary Integration (Shopify App Proxy):**
+- **App Proxy URL:** `https://your-shop.com/apps/ones4-customizer`
+- **Purpose:** Serve Spark AR customizer within Shopify store context
+- **Integration:** Maintains user session and avoids CORS issues
+
+### **Shopify Components:**
+- **Product Page Refactor:** Convert `teletransport.liquid` to modular Online Store 2.0 components
+  - **Section:** `sections/teletransport-hub.liquid` (main container)
+  - **Assets:** Extract styles to `assets/teletransport.css` and logic to `assets/teletransport.js`
+  - **Theme App Extension:** "Customize" button injection via App Block
+  
+### **Data Flow Architecture:**
+- **MongoDB Atlas:** Complex design configuration storage (layers, AI textures)
+- **Shopify Cart Integration:** Line Item Properties with Design ID linking
+- **Cart Payload:** `_DesignID: ObjectId("...")` and `_PreviewURL` for thumbnails
+
+## 🎨 Project Vision: "Teletransport Commerce Experience"
+
+**PRIMARY GOAL:** Create **ONES4 Customizer App** - a seamless Shopify-integrated product customization platform using Spark AR and AI.
+
+**APPLICATION NAME:** ONES4 Customizer App  
+**REPOSITORY:** `https://github.com/ones4everything/ones4designapp`  
+**PLATFORM:** Shopify App Proxy + Spark AR Studio + BabylonJS  
+**CORE TECHNOLOGY:** Teletransport Liquid Effects + Gemini AI + MongoDB Atlas  
+**INTEGRATION:** Native Shopify Online Store 2.0 with App Proxy architecture
+
+### **USER JOURNEY - "Teletransport" Flow:**
+1. **Land:** User arrives at Teletransport Hub (Shopify Product Page) with Cyber-Lux/Glassmorphic UI
+2. **Launch:** User clicks pulsing "Initiate Teletransport" (Customize) button  
+3. **Remix:** App Proxy loads ONES4 Customizer - user speaks to Gemini AI for texture generation
+4. **Materialize:** User hits "Add to Cart" - design saved to MongoDB, returned to Shopify cart
+
+### **"INSANE" INTERFACE STANDARD:**
+- **Visual Style:** Cyber-Lux / Teleporter Aesthetic (from spark-creator-ai)
+- **Shopify Experience:** Modular "Hub" layout with reactive elements and glass effects
+- **Customizer Cockpit:** Gemini Chat Panel + Teletransport Transitions + Digital Dissolve Effects
+
+### **GITHUB INTEGRATION ARCHITECTURE:**
+- **ones4designapp (Main Repository):** Complete AR application development and deployment
+- **custotryon (Reference Repository):** Source of proven Spark AR implementation patterns
+- **spark-creator-ai (Reference Repository):** Source of AI integration methodologies
+
+### **INTEGRATION BENEFITS (NOT MIXING):**
+- **Separate Codebases:** Each repository maintains independent code and development
+- **Pattern Reuse:** Applying successful patterns from previous projects  
+- **Component Reference:** Learning from existing implementations without code duplication
+- **Best Practices:** Leveraging proven methodologies across repository family
 
 **INTENDED USE CASES:**
-- Interactive 3D model visualization in AR space
-- Immersive product demonstrations and presentations
-- Educational AR experiences with 3D content
-- Creative AR art and design applications
-- Professional AR prototyping and collaboration tools
+- Interactive 3D model visualization and viewing in AR space
+- Professional product demonstrations and AR presentations  
+- Educational AR experiences with immersive 3D content
+- AR entertainment and interactive experiences using teletransport liquid
+- Professional AR showcasing and presentation tools
+- ONES4 ecosystem integration for comprehensive AR workflows
 
 ## 📚 Available Documentation & Assets
 
-We have prepared comprehensive specifications that clearly outline our vision and technical requirements:
+We have prepared comprehensive specifications for the Shopify-Spark AR integration:
 
 **SPECIFICATION DOCUMENTS:**
 - **Master Specification:** `ONES4_Print_Designer_Spark_Gemini_Master_Spec_v3.docx` 
-  - *Contains: Core AR application requirements and Gemini AI integration plans*
+  - *Contains: Shopify App Proxy architecture and Gemini AI customization features*
 - **Technical Standards:** `ONES4_BabylonJS_GLB_Pipeline_Standards_AR_Focused.md`
-  - *Contains: BabylonJS implementation guidelines and GLB optimization standards for AR*
+  - *Contains: BabylonJS implementation for Shopify-served AR customization*
 - **Advanced Features:** `ONES4_teletransport_liquid_Code_Extract_and_Restructure_Request_v2.docx`
-  - *Contains: Teletransport liquid technology specifications and AR interaction methods*
+  - *Contains: Teletransport liquid effects for product customization transitions*
 
-**VISUAL & REFERENCE MATERIALS:**
-- **3D Model Assets:** `camotank.png` and additional reference models
-- **Design Guidelines:** Complete AR interface mockups and user experience flows
-- **Technical Architecture:** Detailed system integration diagrams and data flow charts
+**SHOPIFY INTEGRATION MATERIALS:**
+- **Product Assets:** `camotank.png` and customizable product models
+- **Liquid Templates:** Refactored `teletransport.liquid` components for Online Store 2.0
+- **App Proxy Configuration:** Complete setup for `/apps/ones4-customizer` endpoint
 
 **PROJECT DOCUMENTATION:**
-- Complete development timeline and milestone definitions
-- Quality assurance checklist and testing protocols  
-- Risk assessment and mitigation strategies
-- Success criteria and performance benchmarks
+- Complete Shopify App development timeline and integration milestones
+- Theme App Extension specifications and deployment protocols  
+- MongoDB Atlas data flow and Shopify cart integration patterns
+- Performance benchmarks for mobile commerce and AR customization
 
 ## 🔧 Technical Requirements & System Architecture
 
-### **CLEAR TECHNICAL CONNECTIONS:**
+### **SHOPIFY-SPARK AR INTEGRATION STACK:**
 
 ```
-USER INTERACTION LAYER
+SHOPIFY STOREFRONT (Frontend Commerce)
     ↓
-SPARK AR STUDIO (Frontend AR Interface)
+APP PROXY (/apps/ones4-customizer)
     ↓
-BABYLONJS ENGINE (3D Rendering & Scene Management)  
+SPARK AR + BABYLONJS (Product Customization Interface)  
     ↓
-GLB PIPELINE (Optimized 3D Asset Loading)
+GEMINI AI (Texture Generation & Chat Interface)
     ↓
-TELETRANSPORT LIQUID (Advanced Interaction Framework)
+MONGODB ATLAS (Design Storage & Configuration)
     ↓
-GEMINI AI INTEGRATION (Intelligent Assistance & Automation)
+SHOPIFY CART (Line Item Properties Integration)
 ```
 
-### Core Platform Stack
+### Core Integration Stack
 ```
-Platform: Spark AR Studio (Latest Version) - AR Experience Framework
-3D Engine: BabylonJS Framework - 3D Rendering and Scene Management
-File Formats: GLB (Primary) + OBJ, STL Support - 3D Asset Pipeline
-Languages: JavaScript/TypeScript - Development Languages
-Rendering: WebGL/OpenGL ES - Graphics Rendering Engine
-AI Integration: Gemini Pro API - Intelligent Features
-Target Devices: iOS, Android, Meta Quest - Cross-Platform Support
+Commerce Platform: Shopify Online Store 2.0 - E-commerce Framework
+App Integration: Shopify App Proxy - Seamless Store Integration
+3D Engine: BabylonJS Framework - Product Rendering and Customization
+AR Platform: Spark AR Studio - Mobile AR Customization Interface
+Languages: JavaScript/TypeScript + Liquid - Full-stack Development
+AI Integration: Gemini Pro API - Intelligent Texture Generation
+Data Storage: MongoDB Atlas - Design Configuration Persistence
+Cart Integration: Shopify Cart API - Commerce Transaction Handling
 ```
 
 ### **INTEGRATION PURPOSE & CONNECTIONS:**
@@ -106,29 +150,29 @@ Target Devices: iOS, Android, Meta Quest - Cross-Platform Support
 
 ### Key Features Required
 
-#### 🥽 **AR & 3D Visualization (Core Connection)**
-- **Real-time 3D model rendering** using BabylonJS within Spark AR
-- **GLB file import/export pipeline** for optimized AR asset management  
-- **AR overlay integration** for immersive 3D model interaction
-- **Cross-platform compatibility** ensuring consistent AR experience
+#### 🛒 **Shopify Integration (Commerce Connection)**
+- **App Proxy Configuration** serving Spark AR customizer at `/apps/ones4-customizer`
+- **Theme App Extension** for "Customize" button injection without theme code edits
+- **Online Store 2.0 Refactor** of `teletransport.liquid` into modular sections
+- **Cart Integration** with Line Item Properties linking to MongoDB design configurations
 
-#### 🎮 **Interactive AR Experience Tools (User Connection)**
-- **3D model manipulation** (scale, rotate, position) in AR space
-- **Gesture-based controls** using teletransport liquid framework
-- **Multi-touch AR interactions** for complex 3D operations
-- **Real-time visual feedback** during AR model manipulation
+#### � **Product Customization Tools (AR Connection)**
+- **3D Model Customization** (texture swapping, material changes) in Spark AR
+- **Gemini AI Chat Interface** for conversational texture generation ("Make it liquid chrome")
+- **Teletransport Effects** with digital dissolve particle systems during customization
+- **Real-time Preview** of customizations with BabylonJS rendering
 
-#### ✨ **Advanced Technology Integration (Innovation Connection)**
-- **Teletransport liquid effects** for fluid AR interactions
-- **Gemini AI assistance** for intelligent scene optimization
-- **Performance optimization** for smooth mobile AR experiences  
-- **Cloud synchronization** for cross-device AR project sharing
+#### ✨ **Advanced Commerce Integration (Platform Connection)**
+- **MongoDB Atlas** storage for complex design configurations and AI-generated textures
+- **Shopify Cart Sync** with Design ID linking and preview thumbnail generation
+- **Mobile Commerce** optimization for iOS/Android Shopify Mobile App compatibility
+- **Performance Optimization** for seamless App Proxy loading within Shopify context
 
-#### 📱 **Platform & Device Connections**
-- **iOS ARKit integration** for iPhone/iPad AR experiences
-- **Android ARCore support** for Android device compatibility
-- **Meta Quest compatibility** for VR/AR headset experiences
-- **WebXR fallback** for browser-based AR when native apps unavailable
+#### 📱 **Cross-Platform Commerce Experience**
+- **Shopify Web** integration for desktop commerce experience
+- **Shopify Mobile App** compatibility for mobile commerce workflows
+- **Progressive Enhancement** ensuring functionality without AR when needed
+- **Session Persistence** maintaining user customization state across Shopify navigation
 
 ## 📊 Scope & Deliverables
 

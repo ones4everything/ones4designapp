@@ -1,78 +1,81 @@
-# Spark App Development Request Checklist
+# ONES4 Customizer App Development Checklist
+## Shopify Integration & Spark AR Customization
 
 ## Pre-Development Checklist
 
-### Documentation Review
+### Shopify Setup & Documentation Review
 - [ ] Extract requirements from `ONES4_Print_Designer_Spark_Gemini_Master_Spec_v3.docx`
-- [ ] Review technical standards in `ONES4_BabylonJS_GLB_Pipeline_Standards.docx`
-- [ ] Analyze features in `ONES4_teletransport_liquid_Code_Extract_and_Restructure_Request_v2.docx`
-- [ ] Catalog visual assets (starting with `camotank.png`)
+- [ ] Review BabylonJS standards in `ONES4_BabylonJS_GLB_Pipeline_Standards_AR_Focused.md`
+- [ ] Analyze teletransport commerce features in `ONES4_teletransport_liquid_Code_Extract_and_Restructure_Request_v2.docx`
+- [ ] Set up Shopify Partner Dashboard and App development environment
+- [ ] Configure App Proxy settings for `/apps/ones4-customizer` endpoint
 
 ### Technical Prerequisites
-- [ ] Install Spark AR Studio
-- [ ] Set up BabylonJS development environment
-- [ ] Configure GLB processing tools
-- [ ] Prepare testing devices
+- [ ] Install Shopify CLI and initialize app project
+- [ ] Set up Spark AR Studio for product customization
+- [ ] Configure BabylonJS development environment for commerce integration
+- [ ] Set up MongoDB Atlas for design configuration storage
+- [ ] Prepare Gemini AI API access and integration tools
 
 ### Team and Resources
-- [ ] Identify Spark AR developer
-- [ ] Recruit BabylonJS specialist
-- [ ] Assign UI/UX designer
-- [ ] Engage AR/3D graphics specialist
-- [ ] Set up QA testing environment
+- [ ] Identify Shopify App developer with App Proxy experience
+- [ ] Recruit Spark AR specialist with commerce integration knowledge
+- [ ] Assign UI/UX designer familiar with "Insane" interface standards
+- [ ] Engage AR/3D graphics specialist for product customization
+- [ ] Set up QA testing environment for Shopify Mobile App compatibility
 
 ## Development Phase Checklist
 
-### Phase 1: Foundation (Weeks 1-2)
-- [ ] Initialize Spark AR project
-- [ ] Integrate BabylonJS framework
-- [ ] Set up GLB loading pipeline
-- [ ] Create basic 3D scene
-- [ ] Implement file system architecture
+### Phase 0: Shopify Architecture (Weeks 1-2)
+- [ ] Refactor `teletransport.liquid` into `sections/teletransport-hub.liquid`
+- [ ] Extract assets to `assets/teletransport.css` and `assets/teletransport.js`
+- [ ] Generate Shopify CLI Theme App Extension for "Customize" button
+- [ ] Configure App Proxy in Partner Dashboard pointing to Spark AR host
+- [ ] Implement "Insane" interface standard with Cyber-Lux aesthetic
 
-### Phase 2: Core Features (Weeks 3-4)
-- [ ] Build 3D model import system
-- [ ] Create AR interface and interactions
-- [ ] Implement model manipulation tools
-- [ ] Add export functionality
-- [ ] Test basic user workflows
+### Phase 1: Spark AR Foundation (Weeks 3-4)
+- [ ] Initialize Spark AR project with BabylonJS integration
+- [ ] Build product customization interface with material swapping
+- [ ] Implement teletransport liquid effects for smooth transitions
+- [ ] Set up Gemini AI chat interface for texture generation
+- [ ] Test basic App Proxy serving of customization interface
 
-### Phase 3: Advanced Features (Weeks 5-6)
-- [ ] Integrate teletransport liquid effects
-- [ ] Add AR preview capabilities
-- [ ] Optimize rendering performance
-- [ ] Implement cross-device compatibility
-- [ ] Add cloud sync features
+### Phase 2: Commerce Integration (Weeks 5-6)
+- [ ] Implement MongoDB Atlas storage for design configurations
+- [ ] Build Shopify Cart integration with Line Item Properties
+- [ ] Add Design ID linking between MongoDB and Shopify orders
+- [ ] Create preview thumbnail generation for cart display
+- [ ] Test complete commerce flow from customization to purchase
 
-### Phase 4: Testing and Deployment (Weeks 7-8)
-- [ ] Conduct user acceptance testing
-- [ ] Perform performance benchmarking
-- [ ] Fix critical bugs
-- [ ] Prepare deployment package
-- [ ] Document user guides
+### Phase 3: Optimization & Deployment (Weeks 7-8)
+- [ ] Optimize performance for Shopify Mobile App compatibility
+- [ ] Conduct user acceptance testing for commerce workflow
+- [ ] Implement advanced teletransport effects and AI features
+- [ ] Performance optimization for mobile commerce environments
+- [ ] Deploy App Proxy and Theme App Extension to production
 
 ## Quality Assurance Checklist
 
-### Functional Testing
-- [ ] GLB file import/export works correctly
-- [ ] 3D manipulation tools function properly
-- [ ] AR experience accuracy verified
-- [ ] AR features work as expected
-- [ ] Teletransport liquid effects operational
+### Shopify Integration Testing
+- [ ] App Proxy loads correctly within Shopify storefront context
+- [ ] Theme App Extension "Customize" button injection works without theme edits
+- [ ] Product page refactor maintains Online Store 2.0 compatibility
+- [ ] Cart integration correctly saves Design ID and preview thumbnails
+- [ ] Mobile commerce workflow functions in Shopify Mobile App
 
-### Performance Testing
-- [ ] Loading times under 2 seconds
-- [ ] Maintains 60 FPS rendering
-- [ ] Memory usage below 100MB
-- [ ] Stable on all target devices
-- [ ] Network performance acceptable
+### Spark AR Customization Testing
+- [ ] Product customization tools function properly within App Proxy
+- [ ] Gemini AI texture generation responds correctly to user prompts
+- [ ] Teletransport liquid effects render smoothly during material changes
+- [ ] BabylonJS performance meets mobile commerce requirements
+- [ ] AR customization maintains session state during Shopify navigation
 
-### User Experience Testing
-- [ ] Interface is intuitive
-- [ ] Touch controls are responsive
-- [ ] AR integration is seamless
-- [ ] Error handling is user-friendly
-- [ ] Help documentation is clear
+### Commerce Workflow Testing
+- [ ] Complete purchase flow from customization to order completion
+- [ ] MongoDB design storage integrates properly with Shopify orders
+- [ ] Preview thumbnails display correctly in Shopify cart and checkout
+- [ ] Line Item Properties correctly link customized products to designs
+- [ ] Order fulfillment data includes all necessary customization information
 
 ## Deployment Checklist
 

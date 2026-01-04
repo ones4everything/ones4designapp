@@ -1,54 +1,55 @@
-# Spark App Development Request Plan
+# ONES4 Customizer App - Shopify & Spark AR Development Plan
 
 ## Project Overview
 **Date:** January 3, 2026  
 **Project Location:** `C:\Users\Noe\OneDrive\Documents\3D`  
-**Project Type:** Spark AR Application with BabylonJS Integration  
+**Application Name:** ONES4 Customizer App  
+**Project Type:** Shopify Integration with Spark AR Product Customization  
 
 ## Executive Summary
-Request for development of a comprehensive Spark AR application using BabylonJS for 3D visualization, GLB file support, and advanced features including teletransport liquid technology for immersive AR experiences.
+Request for development of **ONES4 Customizer App**, a Shopify-integrated application using App Proxy architecture to serve Spark AR product customization experiences. The system combines BabylonJS 3D rendering, Gemini AI texture generation, and teletransport liquid effects within the Shopify commerce environment.
 
 ## Project Components Analysis
 
-### 1. Core Application Framework
-- **Platform:** Spark AR Studio (Meta/Facebook AR platform)
-- **Primary Technology:** BabylonJS for 3D rendering and AR effects
-- **File Format Support:** GLB (GL Transmission Format Binary)
-- **Integration:** AR experience and 3D model interaction
+### 1. Shopify Integration Framework
+- **Platform:** Shopify Online Store 2.0 with App Proxy architecture
+- **Primary Technology:** App Proxy + Theme App Extensions for seamless integration
+- **Commerce Integration:** MongoDB Atlas with Shopify Cart API linking
+- **User Experience:** Native Shopify storefront with embedded AR customization
 
 ### 2. Key Documents and Specifications
-- `ONES4_Print_Designer_Spark_Gemini_Master_Spec_v3.docx` - Master specification document
-- `ONES4_BabylonJS_GLB_Pipeline_Standards_AR_Focused.md` - AR-focused technical pipeline standards
-- `ONES4_teletransport_liquid_Code_Extract_and_Restructure_Request_v2.docx` - Advanced feature specifications
-- `camotank.png` - Visual reference/3D model asset
+- `ONES4_Print_Designer_Spark_Gemini_Master_Spec_v3.docx` - Master specification for Shopify-Spark integration
+- `ONES4_BabylonJS_GLB_Pipeline_Standards_AR_Focused.md` - Technical pipeline for commerce-integrated AR
+- `ONES4_teletransport_liquid_Code_Extract_and_Restructure_Request_v2.docx` - Teletransport commerce experience features
+- `camotank.png` - Product customization reference asset
 
 ## Development Request Structure
 
-### Phase 1: Requirements Gathering and Analysis
-1. **Document Analysis**
-   - Extract requirements from master specification (v3)
-   - Review BabylonJS GLB pipeline standards
-   - Analyze teletransport liquid feature requirements
+### Phase 1: Shopify Architecture Setup
+1. **Shopify App Configuration**
+   - Set up App Proxy configuration in Partner Dashboard
+   - Initialize Shopify CLI and generate Theme App Extension
+   - Configure `/apps/ones4-customizer` endpoint routing
    
-2. **Technical Assessment**
-   - Spark AR Studio compatibility analysis
-   - BabylonJS integration requirements
-   - GLB file format optimization needs
-   - Performance considerations for AR experiences
+2. **Product Page Refactoring**
+   - Convert `teletransport.liquid` to modular Online Store 2.0 sections
+   - Extract inline styles to `assets/teletransport.css`
+   - Move logic to `assets/teletransport.js` with proper product data output
+   - Implement "Insane" interface standard with Cyber-Lux aesthetic
 
-### Phase 2: Architecture and Design
-1. **Application Architecture**
-   - Spark AR project structure
-   - BabylonJS scene management
-   - GLB asset loading pipeline
-   - AR interface design
+### Phase 2: Spark AR Customizer Development
+1. **Customization Engine**
+   - Spark AR project with BabylonJS integration for product customization
+   - Material swapping and texture application systems
+   - Teletransport liquid effects for smooth customization transitions
+   - Gemini AI chat interface for conversational texture generation
 
-2. **Key Features Definition**
-   - 3D model import/export (GLB format)
-   - Real-time 3D AR visualization and manipulation
-   - Interactive AR experiences
-   - Teletransport liquid integration
-   - User interface components
+2. **Key Features Implementation**
+   - Product model rendering and customization tools
+   - Real-time AR preview with BabylonJS optimization
+   - AI-powered texture generation through Gemini API
+   - Digital dissolve particle effects for material transitions
+   - Mobile-optimized performance for commerce use cases
    - User interface components
 
 ### Phase 3: Technical Specifications
